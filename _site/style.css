@@ -1,0 +1,132 @@
+:root {
+  --bg-page: #f4f0f8;
+  --bg-card: #fbf8ff;
+  --bg-header: #e8dcf4;
+  --ink: #272134;
+  --ink-muted: #5f5870;
+  --accent: #b686d9;
+  --accent-strong: #8e5eb9;
+  --border: #cdbdde;
+  --shadow: #9e8ab8;
+  --max-width: 760px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body.site-body {
+  margin: 0;
+  color: var(--ink);
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(180deg, #f7f3fb 0%, #f0e8f8 100%);
+}
+
+.page-shell {
+  width: min(100% - 2rem, var(--max-width));
+  margin: 1.5rem auto;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  box-shadow: 6px 6px 0 var(--shadow);
+}
+
+.site-header {
+  padding: 1rem 1.2rem;
+  border-bottom: 2px solid var(--border);
+  background: linear-gradient(180deg, #f4ecfb 0%, var(--bg-header) 100%);
+}
+
+.site-title {
+  margin: 0;
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.site-title a {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.site-title a:hover,
+.site-title a:focus-visible {
+  color: #71459a;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.site-main {
+  padding: 1.2rem;
+}
+
+.about-panel,
+.posts-panel {
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 0.9rem 1rem;
+}
+
+.posts-panel {
+  margin-top: 1rem;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  color: var(--ink);
+  font-size: clamp(1.05rem, 2.5vw, 1.3rem);
+  border-left: 6px solid var(--accent);
+  padding-left: 0.6rem;
+  letter-spacing: 0.02em;
+}
+
+p {
+  margin: 0;
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.post-item {
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, #fdfbff 0%, #f5eefc 100%);
+}
+
+.post-link {
+  color: var(--accent-strong);
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.post-link:hover,
+.post-link:focus-visible {
+  color: #693e90;
+}
+
+.post-date {
+  color: var(--ink-muted);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+  .page-shell {
+    width: calc(100% - 1rem);
+    margin: 0.8rem auto;
+    box-shadow: 3px 3px 0 var(--shadow);
+  }
+
+  .site-header,
+  .site-main {
+    padding: 0.9rem;
+  }
+}
