@@ -14,7 +14,7 @@ layout: layouts/base.njk
 <ul class="post-list">
   {% for post in collections.blog | reverse %}
     <li class="post-item">
-      <a class="post-link" href="{{ post.url }}">{{ post.data.title }}</a><br>
+      <a class="post-link" href="{{ post.url | url }}">{{ post.data.title }}</a><br>
       <small class="post-date">{{ post.date | readableDate }}</small>
     </li>
   {% endfor %}
