@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <title>{{ title or "Louis Appleyard" }}</title>
-        <link rel="stylesheet" href="/style.css">
-    </head>
-    <body class="site-body">
-        <div class="page-shell">
-        <header class="site-header">
-            <h1 class="site-title"><a href="/">Louis Appleyard</a></h1>
-        </header>
-        <main class="site-main">
-            {{ content | safe }}
-        </main>
-        </div>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title or "Louis Appleyard" }}</title>
+    <link rel="stylesheet" href="{{ '/style.css' | url }}">
+  </head>
+  <body class="site-body">
+    <div class="page-shell">
+      <header class="site-header">
+        <h1 class="site-title">
+          <a href="{{ '/' | url }}">Louis Appleyard</a>
+        </h1>
+      </header>
+
+      <main class="site-main">
+        {{ content | safe }}
+      </main>
+    </div>
+  </body>
 </html>

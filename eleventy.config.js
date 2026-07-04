@@ -22,5 +22,6 @@ module.exports = function (eleventyConfig) {
 
   return {
     incrementalBuild: false,
+    pathPrefix: "/personalBlog/",
   };
 };
