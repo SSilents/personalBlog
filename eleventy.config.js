@@ -7,6 +7,8 @@ module.exports = function (eleventyConfig) {
     fs.rmSync(outputDir, { recursive: true, force: true });
   };
 
+  eleventyConfig.ignores.add("drafts/**");
+  
   eleventyConfig.on("eleventy.before", cleanOutput);
   eleventyConfig.on("eleventy.beforeWatch", cleanOutput);
 
