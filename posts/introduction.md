@@ -13,18 +13,20 @@ Hello, for those who don't know me I am Louis Appleyard, I'm a Durham University
 ## Why have I made a website?
 
 I have a few reasons for why I made this website:
- * To have some sort of project to work on
- * To write about things I am interested in
- * And to discuss academic things I may want to write about that might not be worth publishing
 
- ## What kind of things will I write about?
+    * To have some sort of project to work on
+    * To write about things I am interested in
+    * And to discuss academic things I may want to write about that might not be worth publishing
+
+## What kind of things will I write about?
 
  At the moment the things I have cooking that I'm hoping to write about include:
- * Animation as a medium and how it has been infantilised
- * The usage of AI and its environmental impact
- * Further AI ethical questions
- * Universal basic income and how it could be implemented
- * Other left wing economic ideas
+
+    * Animation as a medium and how it has been infantilised
+    * The usage of AI and its environmental impact
+    * Further AI ethical questions
+    * Universal basic income and how it could be implemented
+    * Other left wing economic ideas
 
 ## Conclusion
 
