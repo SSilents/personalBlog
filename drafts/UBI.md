@@ -7,3 +7,7 @@ tags:
 ---
 
 ## A Case for Universal Basic Income
+
+## Introduction
+
+For a while Universal Basic Income (UBI) seemed like a bit of a pipedream; something that sounds great in concept but obviously something we could never do. This changed when I started to have a bit more of a look into how it works and why 
