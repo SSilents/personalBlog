@@ -21,6 +21,7 @@ body.site-body {
   font-family: Verdana, Tahoma, Arial, sans-serif;
   line-height: 1.6;
   background: linear-gradient(180deg, #f7f3fb 0%, #f0e8f8 100%);
+  overflow-wrap: break-word;
 }
 
 .page-shell {
