@@ -52,4 +52,5 @@ Schemes like this that benefit the working people of our country the most are of
 ## Sources
 
 https://assets.publishing.service.gov.uk/media/6a4e3a53895317eadc35459e /dwp_annual_report_and_accounts_2025_to_2026.pdf
+
 Common Sense Policy Group, Pickett, K., Dorling, D. and Wilkinson, R. (2024). ACT Now.
