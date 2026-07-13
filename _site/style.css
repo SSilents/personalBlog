@@ -23,7 +23,7 @@ body.site-body {
   background: linear-gradient(180deg, #f7f3fb 0%, #f0e8f8 100%);
 }
 
-p {
+.p {
     overflow-wrap: break-word;
 }
 
